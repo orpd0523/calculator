@@ -1,0 +1,14 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgba(158, 250, 158, 0.507);
+}
