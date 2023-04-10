@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgba(158, 250, 158, 0.507);
+}
+
+.calculator{
+  border: 2px solid black;
+  background-color: white;
+  padding: 1rem;
+  &__screen{
+    border: 2px solid black;
+    height: 4rem;
+  }
+  &__operators{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+  } 
+  &__operator{
+    border: 2px solid black;
+    background-color: lightgrey;
+    justify-content: space-between;
+    padding-left: 1.5rem;
+    padding-top: .5rem;
+    height: 2.5rem;
+    width: 4rem;
+  }
+} 
+.numbers{
+    border: 2px solid blue;
+    display: inline-block;
+    &__number{
+      border: 2px solid green;
+      width: 4rem;
+      height: 2.5rem;
+      margin-right: .5rem;
+      padding-left: 1.5rem;
+      padding-top: .5rem;
+    }
+    &__top{
+      display: flex;
+    }
+    &__middle{
+      display: flex;
+    }
+    &__bottom{
+      display: flex;
+    }
+    &__zero{
+      display: flex;
+    }
+  }
+
+  .equal{
+    border: 2px solid red;
+    display: flex;
+    width: 4rem;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+  }
