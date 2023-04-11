@@ -10,37 +10,37 @@
 </head>
 <body>
     <div class="calculator">
-        <div class="calculator__screen" id="screen">screen here</div>
+        <div class="calculator__screen" id="screen" type="text" value=""></div>
         <div class="calculator__buttons">
             <div class="calculator__operators">
-                <div class="calculator__operator">+</div>
-                <div class="calculator__operator">-</div>
-                <div class="calculator__operator">&times;</div>
-                <div class="calculator__operator">&divide;</div>
+                <button class="calculator__operator" id="operand" type="button">+</button>
+                <button class="calculator__operator" id="operand" type="button">-</button>
+                <button class="calculator__operator" id="operand" type="button">&times;</button>
+                <button class="calculator__operator" id="operand" type="button">&divide;</button>
             </div>
             <div class="numbers">
                 <div class="numbers__top">
-                    <div class="numbers__number">7</div>
-                    <div class="numbers__number">8</div>
-                    <div class="numbers__number">9</div>
+                    <button class="numbers__number" id="key" type="button" value="text">7</button>
+                    <button class="numbers__number" id="key" type="button" value="text">8</button>
+                    <button class="numbers__number" id="key" type="button" value="text">9</button>
                 </div>
                 <div class="numbers__middle">
-                    <div class="numbers__number">4</div>
-                    <div class="numbers__number">5</div>
-                    <div class="numbers__number">6</div>
+                    <button class="numbers__number" id="key" type="button" value="text">4</button>
+                    <button class="numbers__number" id="key" type="button" value="text">5</button>
+                    <button class="numbers__number" id="key" type="button" value="text">6</button>
                 </div>
                 <div class="numbers__bottom">
-                    <div class="numbers__number">1</div>
-                    <div class="numbers__number">2</div>
-                    <div class="numbers__number">3</div>
+                    <button class="numbers__number" id="key" type="button" value="text">1</button>
+                    <button class="numbers__number" id="key" type="button" value="text">2</button>
+                    <button class="numbers__number" id="key" type="button" value="text">3</button>
                 </div>
                 <div class="numbers__zero">
-                    <div class="numbers__number">0</div>
-                    <div class="numbers__number">.</div>
-                    <div class="numbers__number" id="clear">C</div>
+                    <button class="numbers__number" id="key" type="button" value="text">0</button>
+                    <button class="numbers__number" id="decimal" type="button" value="text">.</button>
+                    <button class="numbers__number" id="clear"  type="button" value="text">C</button>
                 </div>
             </div>
-            <div class="equal" id="result">=</div>
+            <button class="equal" id="result" type="button" value="text">=</button>
         </div>
     </div>
 </body>

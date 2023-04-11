@@ -11,6 +11,7 @@ html {
 
 body {
   background-color: rgba(158, 250, 158, 0.507);
+  font-weight: 600;
 }
 
 .calculator {
@@ -21,6 +22,8 @@ body {
 .calculator__screen {
   border: 2px solid black;
   height: 4rem;
+  padding-left: 9rem;
+  padding-top: 2rem;
 }
 .calculator__operators {
   display: flex;
@@ -40,7 +43,6 @@ body {
 }
 
 .numbers {
-  border: 2px solid blue;
   display: inline-block;
 }
 .numbers__number {
@@ -48,6 +50,7 @@ body {
   width: 4rem;
   height: 2.5rem;
   margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
   padding-left: 1.5rem;
   padding-top: 0.5rem;
 }
@@ -65,10 +68,13 @@ body {
 }
 
 .equal {
-  border: 2px solid red;
+  border: 2px solid black;
+  background-color: rgba(75, 132, 255, 0.911);
+  color: white;
   display: flex;
   width: 4rem;
-  height: 3rem;
+  height: 2.5rem;
+  margin-top: 0.5rem;
   align-items: center;
   justify-content: center;
 }
